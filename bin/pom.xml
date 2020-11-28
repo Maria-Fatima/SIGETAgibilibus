@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< Updated upstream
 <project xmlns="http://maven.apache.org/POM/4.0.0"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-=======
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
->>>>>>> Stashed changes
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.3.4.RELEASE</version>
-<<<<<<< Updated upstream
 		<relativePath /> <!-- lookup parent from repository -->
-=======
-		<relativePath/> <!-- lookup parent from repository -->
->>>>>>> Stashed changes
 	</parent>
 	<groupId>com.agibilibus</groupId>
 	<artifactId>SIGET</artifactId>
@@ -26,13 +18,10 @@
 
 	<properties>
 		<java.version>1.8</java.version>
-<<<<<<< Updated upstream
 		<sonar.projectKey>CarrivasUclm_SIGETAgibilibus</sonar.projectKey>
 		<sonar.organization>agibilibus</sonar.organization>
 		<sonar.exclusions>src/main/webapp/fullcalendar/*</sonar.exclusions>
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
-=======
->>>>>>> Stashed changes
 	</properties>
 
 	<dependencies>
@@ -46,7 +35,6 @@
 		</dependency>
 
 		<dependency>
-<<<<<<< Updated upstream
 			<groupId>joda-time</groupId>
 			<artifactId>joda-time</artifactId>
 			<version>2.10.8</version>
@@ -59,8 +47,6 @@
 		</dependency>
 
 		<dependency>
-=======
->>>>>>> Stashed changes
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-tomcat</artifactId>
 			<scope>provided</scope>
@@ -69,23 +55,16 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
-<<<<<<< Updated upstream
-		</dependency>
-		<dependency>
-			<groupId>org.mongodb</groupId>
-			<artifactId>mongo-java-driver</artifactId>
-			<version>3.12.4</version>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.mongodb/mongodb-driver -->
 		<dependency>
 			<groupId>org.mongodb</groupId>
 			<artifactId>mongodb-driver-sync</artifactId>
-			<version>4.0.5</version>
 		</dependency>
 
 
-		<!-- https://mvnrepository.com/artifact/org.mongodb/bson -->
+<!-- https://mvnrepository.com/artifact/org.mongodb/bson -->
 		<dependency>
 			<groupId>org.mongodb</groupId>
 			<artifactId>bson</artifactId>
@@ -98,7 +77,6 @@
 		<dependency>
 			<groupId>javax.persistence</groupId>
 			<artifactId>javax.persistence-api</artifactId>
-			<version>2.2</version>
 		</dependency>
 
 		<dependency>
@@ -123,53 +101,11 @@
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
-			<version>3.141.59</version>
-		</dependency>
-=======
-			<exclusions>
-				<exclusion>
-					<groupId>org.junit.vintage</groupId>
-					<artifactId>junit-vintage-engine</artifactId>
-				</exclusion>
-			</exclusions>
 		</dependency>
 		<dependency>
-    <groupId>org.mongodb</groupId>
-    <artifactId>mongo-java-driver</artifactId>
-    <version>3.12.4</version>
-</dependency>
-
-<!-- https://mvnrepository.com/artifact/org.mongodb/mongodb-driver -->
-<dependency>
-    <groupId>org.mongodb</groupId>
-    <artifactId>mongodb-driver-sync</artifactId>
-    <version>4.0.5</version>
-</dependency>
-
-
-<!-- https://mvnrepository.com/artifact/org.mongodb/bson -->
-<dependency>
-    <groupId>org.mongodb</groupId>
-    <artifactId>bson</artifactId>
-</dependency>
-<dependency>
-        <groupId>org.mongodb</groupId>
-        <artifactId>mongodb-driver-core</artifactId>
-    </dependency>
-    <!-- https://mvnrepository.com/artifact/javax.persistence/javax.persistence-api -->
-<dependency>
-    <groupId>javax.persistence</groupId>
-    <artifactId>javax.persistence-api</artifactId>
-    <version>2.2</version>
-</dependency>
-    
-    <dependency>
-     <groupId>junit</groupId>
-     <artifactId>junit</artifactId>
-     <version>4.10</version>
-     <scope>test</scope>
-   </dependency>
->>>>>>> Stashed changes
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -178,12 +114,10 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-<<<<<<< Updated upstream
 
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-dependency-plugin</artifactId>
-				<version>2.3</version>
 				<executions>
 					<execution>
 						<phase>package</phase>
@@ -217,8 +151,6 @@
 					</execution>
 				</executions>
 			</plugin>
-=======
->>>>>>> Stashed changes
 		</plugins>
 	</build>
 
