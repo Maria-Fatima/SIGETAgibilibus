@@ -31,4 +31,7 @@ build/
 
 ### VS Code ###
 .vscode/
+<<<<<<< Updated upstream
 /bin/
+=======
+>>>>>>> Stashed changes
